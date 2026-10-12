@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local databases and runtime uploads
+data/*.db
+data/*.sqlite3
+app/static/uploads/*
+!app/static/uploads/.gitkeep
+app/static/audio/*
+!app/static/audio/.gitkeep
+
+# Environment variables
+.env
+
+# Large model checkpoints (optional: keep if under 100MB, but usually large)
+# weights/*.pth
+# weights/*.pt
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
